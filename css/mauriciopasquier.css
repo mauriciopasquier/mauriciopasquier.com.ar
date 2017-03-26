@@ -1,0 +1,38 @@
+.container {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section.hoverable {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section.hoverable a {
+  color: #FFD54F;
+}
+
+.section.hoverable a:visited {
+  color: #FFC107;
+}
+
+#header {
+  padding-top: 0.1rem;
+}
+
+#header > h1 {
+  font-weight: 600;
+}
+
+.categoria {
+  font-weight: 500;
+}
+
+.contenido {
+  border-left: 1px solid #FFD54F;
+}
+
+.row {
+  margin-bottom: 0;
+}
