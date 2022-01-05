@@ -17,10 +17,6 @@
   color: #FFC107;
 }
 
-#header {
-  padding-top: 0.1rem;
-}
-
 #header > h1 {
   font-weight: 600;
 }
@@ -31,4 +27,13 @@
 
 .row {
   margin-bottom: 0;
+}
+
+.foto img {
+  height: 155px;
+  float: right;
+}
+
+#mauriciopasquierjuan {
+  margin-top: 0.5rem;
 }

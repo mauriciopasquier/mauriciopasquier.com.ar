@@ -1,0 +1,59 @@
+.white-text {
+  color: #333;
+}
+
+.blue-grey.darken-1 {
+  background-color: #fff !important;
+}
+
+.blue-grey.lighten-1 {
+  background-color: #fff !important;
+}
+
+.white-text {
+  color: #333 !important;
+}
+
+h1, h2 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.hoverable {
+  transition: unset;
+}
+
+.hoverable:hover {
+  box-shadow: unset;
+  transition: unset;
+}
+
+#header {
+  padding-top: 0;
+}
+
+.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.categoria {
+  font-weight: bold;
+}
+
+.foto img {
+  height: 200px;
+  float: right;
+}
+
+#mauriciopasquierjuan {
+  margin-top: 0.5rem;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+.bloque-contenido {
+  page-break-inside: avoid;
+}

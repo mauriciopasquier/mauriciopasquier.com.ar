@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="css/material-icons-font.css" />
     <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection,print" />
-    <link rel="stylesheet" href="css/mauriciopasquier.css" media="screen,projection,print" />
+    <link rel="stylesheet" href="css/mauriciopasquier.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/mauriciopasquier-print.css" media="print" />
 
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
 
@@ -20,27 +21,38 @@
   <body>
     <div class="container">
       <div id="header" class="section hoverable blue-grey darken-1 white-text">
-        <h1 id="mauriciopasquierjuan">Mauricio Pasquier Juan</h1>
 
         <div class="row">
-          <div class="col s12 m2 categoria categoria">Email</div>
-          <div class="col s12 m10 contenido">mauricio (arroba) pasquierjuan.com.ar</div>
+          <div class="col datos">
+            <h1 id="mauriciopasquierjuan">Mauricio Pasquier Juan</h1>
+            <div class="row">
+              <div class="col s12 m2 categoria">Email</div>
+              <div class="col s12 m10 contenido">mauricio (arroba) pasquierjuan.com.ar</div>
 
-          <div class="col s12 m2 categoria">Web</div>
-          <div class="col s12 m10 contenido"><a href="http://mauriciopasquier.com.ar">mauriciopasquier.com.ar</a></div>
+              <div class="col s12 m2 categoria">Web</div>
+              <div class="col s12 m10 contenido"><a href="http://mauriciopasquier.com.ar">mauriciopasquier.com.ar</a></div>
 
-          <div class="col s12 m2 categoria">Github</div>
-          <div class="col s12 m10 contenido"><a href="http://github.com/mauriciopasquier">github.com/mauriciopasquier</a></div>
+              <div class="col s12 m2 categoria">Github</div>
+              <div class="col s12 m10 contenido"><a href="http://github.com/mauriciopasquier">github.com/mauriciopasquier</a></div>
 
-          <div class="col s12 m2 categoria">AFIP</div>
-          <div class="col s12 m10 contenido"><a href="http://qr.afip.gob.ar/?qr=w8-HnHY_Jamck804VuhdPQ,,">data fiscal</a></div>
+              <div class="col s12 m2 categoria">AFIP</div>
+              <div class="col s12 m10 contenido"><a href="http://qr.afip.gob.ar/?qr=w8-HnHY_Jamck804VuhdPQ,,">data fiscal</a></div>
+
+              <div class="col s12 m2 categoria">CV</div>
+              <div class="col s12 m10 contenido"><a href="cv.pdf">PDF</a></div>
+
+            </div>
+          </div>
+          <div class="col foto">
+            <img class="responsive-img circle" src="img/cv.jpg">
+          </div>
         </div>
       </div>
 
       <div class="section hoverable blue-grey lighten-1 white-text">
         <h2 id="experiencialaboralreciente">Experiencia laboral reciente</h2>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2020 - 2021</div>
           <div class="col s12 m10 contenido">
 	    <a href="https://muadev.ar">MuaDev</a>. Desarrollo de app para celulares/sistema de
@@ -49,7 +61,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2020</div>
           <div class="col s12 m10 contenido">
             <a href="https://www1.frm.utn.edu.ar">UTN - FRM</a>. Desarrollo
@@ -60,7 +72,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2019 – 2020</div>
           <div class="col s12 m10 contenido">
 	    <a href="http://smartsyntax.cc">SMART SYNTAX</a>. Desarrollo full
@@ -73,7 +85,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2019</div>
           <div class="col s12 m10 contenido">
 	    <a href="https://muadev.ar">MuaDev</a>. Desarrollo de app para Android de
@@ -83,7 +95,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2018 – 2020</div>
           <div class="col s12 m10 contenido">
 	    <a href="http://smartsyntax.cc">SMART SYNTAX</a>. Desarrollo y
@@ -93,7 +105,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2018 – 2019</div>
           <div class="col s12 m10 contenido">
             <a href="http://fao.org">FAO</a>. Desarrollo full stack de distintas aplicaciones de mapeo digital.
@@ -103,7 +115,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2015</div>
           <div class="col s12 m10 contenido">
             Desarrollo privativo. Front-end para sistema de foros y red social
@@ -111,7 +123,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2014 – 2017</div>
           <div class="col s12 m10 contenido">
             <strong>Freelancer</strong>. Desarrollo del back-end de <a href="http://futbolprode.com">Sistema de prode</a>
@@ -119,7 +131,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2014</div>
           <div class="col s12 m10 contenido">
             <a href="http://lainventoria.com.ar">La Inventoría</a>. Desarrollo de
@@ -129,7 +141,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2012 – 2015</div>
           <div class="col s12 m10 contenido">
             <strong>Freelancer</strong>. Desarrollo full stack de <a href="http://bibliotecadeleter.com.ar">plataforma social</a>
@@ -140,7 +152,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2011 – 2021</div>
           <div class="col s12 m10 contenido">
             <a href="http://inta.gov.ar/">INTA</a>.
@@ -155,14 +167,14 @@
       <div class="section hoverable blue-grey lighten-1 white-text">
         <h2 id="conocimientostécnicos">Conocimientos técnicos</h2>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Sistemas Operativos</div>
           <div class="col s12 m10 contenido">
             Debian GNU/Linux, Ubuntu, Mint, ArchLinux, Raspbian.
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Web</div>
           <div class="col s12 m10 contenido">
             XHTML, HTML5, CSS, Sass, javascript, coffescript, jQuery, Ruby on
@@ -171,28 +183,28 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Web semántica</div>
           <div class="col s12 m10 contenido">
             XML y familia, RDF, RDFS, OWL, microformatos, RDFa, eRDF, SPARQL.
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">DBMS</div>
           <div class="col s12 m10 contenido">
             PostgreSQL y PostGIS, MySQL, SQLite.
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Lenguajes de programación</div>
           <div class="col s12 m10 contenido">
             Ruby, javascript (cliente y servidor). Experiencia con Java y PHP.
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Administración de sistemas</div>
           <div class="col s12 m10 contenido">
             Lighttpd, nginx, Mailman, Dokuwiki, Mediawiki, Tor, redes, Prosody,
@@ -200,7 +212,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Control de versiones</div>
           <div class="col s12 m10 contenido">SVN, Git, Mercurial.</div>
         </div>
@@ -209,12 +221,12 @@
       <div class="section hoverable blue-grey lighten-1 white-text">
         <h2 id="idiomas">Idiomas</h2>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Español</div>
           <div class="col s12 m10 contenido">Nativo.</div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">Inglés</div>
           <div class="col s12 m10 contenido">
             Nivel alto (Test Of English as a Foreign Language (663/700), 2007).
@@ -226,7 +238,7 @@
       <div class="section hoverable blue-grey lighten-1 white-text">
         <h2 id="experiencialaboralcompleta">Experiencia laboral previa</h2>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2010 – 2011</div>
           <div class="col s12 m10 contenido">
             <a href="http://eudemocracia.org">Eudemocracia</a>. Desarrollo, adaptación y mantenimiento de
@@ -235,7 +247,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2009</div>
           <div class="col s12 m10 contenido">
             <strong>Simint S.A.</strong> Desarrollo web y mantenimiento en calidad de pasante (<em>PHP</em>, <em>CodeIgniter</em>,
@@ -244,7 +256,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2008 – 2009</div>
           <div class="col s12 m10 contenido">
             <a href="http://www.babelteca.com.ar">Babelteca</a>. Mantenimiento y
@@ -253,10 +265,10 @@
         </div>
       </div>
 
-      <div class="section hoverable blue-grey lighten-1 white-text">
+      <div class="section page-break hoverable blue-grey lighten-1 white-text">
         <h2 id="datosacadémicos">Datos académicos</h2>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2002 – 2011</div>
           <div class="col s12 m10 contenido">
             Ingeniería en Sistemas de Información, Universidad Tecnológica
@@ -264,7 +276,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2008 – 2009</div>
           <div class="col s12 m10 contenido">
             <a href="http://ai.frm.utn.edu.ar/gears">GEARS</a>, Universidad
@@ -275,7 +287,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2007 – 2009</div>
           <div class="col s12 m10 contenido">
             <a href="http://ladei.frm.utn.edu.ar">LADEI</a>, Universidad
@@ -287,7 +299,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2008</div>
           <div class="col s12 m10 contenido">
             <a href="http://ai.frm.utn.edu.ar/gears">GEARS</a>. Presentación de
@@ -295,7 +307,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2008</div>
           <div class="col s12 m10 contenido">
             <a href="http://ai.frm.utn.edu.ar/gears">GEARS</a>. Khipu/Tesina,
@@ -306,7 +318,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2008</div>
           <div class="col s12 m10 contenido">
             <a href="http://ai.frm.utn.edu.ar/gears">GEARS</a>.
@@ -316,7 +328,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bloque-contenido">
           <div class="col s12 m2 categoria">2000 – 2001</div>
           <div class="col s12 m10 contenido">
             Escuela Normal Superior No 9&#8211;003 “Mercedes Tomasa de San
