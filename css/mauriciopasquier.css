@@ -37,3 +37,18 @@
 #mauriciopasquierjuan {
   margin-top: 0.5rem;
 }
+
+ul.tecnologias {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.tecnologias li {
+  display: inline;
+  font-size: smaller;
+  font-style: italic;
+}
+
+ul.tecnologias li:not(:last-child)::after {
+  content: ", "
+}
